@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>
+
+        <h1> Bokbänken </h1>
+
+        <div class="Header">
+
+            <nav>
+                <a href="hem">Hem</a>
+                <a href="index.js">Katalog</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <section id="Hem" class="Hero">
+        <h2> Välkommen till Bokbänken </h2>
+        <p> Här kan du upptäcka nya böcker och se andras ömdome </p>
+     </section>
+
+     <main id="Katalog">
+
+        <h3> Bok Katalog </h3>
+
+        <div class="Filter-box">
+            <label for="Genrefilter"> Filtera
+
+                <select name="" id="Genrefilter">
+
+                <option value="Alla">Alla</option>
+                <option value="Fantasi">Fantasi</option>
+                <option value="Sci-fi">Sci-fi</option>
+                <option value="Barndom">Barndom</option>
+                <option value="Biografi">Biografi</option>
+
+            </select>
+            </label>
+            </div>
+
+            
+
+            <form id="Bokform">
+               <input type="text" id="Tittel" placeholder="Bokens tittle">
+               <input type="text" id="Genre" placeholder="Bokens genre">
+               <input type="text" id=" År" placeholder="utgivning datum">
+               <button type="submit">Lägg till bok</button>
+            </form>
+
+            <div id="Boklista" class="Kort">
+
+                <!-- id= för JS -->
+                 <!-- class för CSS -->
+            </div>
+        </div>
+
+     </main>
+
+     <footer>
+        <div>
+            <p>info @ nonexistant </p>
+            <p>010101010</p>
+
+        </div>
+     </footer>
+
+    <script src="index.js"></script>
+   
+</body>
+</html>
